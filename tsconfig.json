@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false, //o TS já aponta possíveis erros no código
+    "skipLibCheck": true,
+    "typeRoots": ["./src/@types", "node_modules/@types"]
+  }
+}
